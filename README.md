@@ -1,9 +1,7 @@
 # laravel-cloudwatch-logs-lambda-trello
 Use AWS CloudWatch Logs &amp; Lambda to post Laravel Log messages to Trello.
 
-![All Log Levels](screenshot-all-log-levels.png)
-
-![Exception Info](screenshot-exception.png)
+![Created Cards](screenshot-created-cards.png)
 
 # Setup
 ## Step 1 - Get Your Laravel Logs into CloudWatch
