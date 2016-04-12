@@ -25,7 +25,7 @@ function processLogEvent(logEvent, context) {
 function postToTrello(logTitle, logMessage, logType, context) {
     var payloadStr = {
         "idList": trelloListId,
-        "name": logTitle,
+        "name": logMessage,
         "due": null,
         "urlSource": null,
     };
